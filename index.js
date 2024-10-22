@@ -1,4 +1,4 @@
-const i2c = require('i2c-bus');
+import i2c from 'i2c-bus';
 
 const TC74_ADDR = 0x48;
 const TEMP_REG = 0x00;
